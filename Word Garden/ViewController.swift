@@ -18,6 +18,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var playAgainButton: UIButton!
     @IBOutlet weak var flowerImageView: UIImageView!
     
+    //Why does this not run??
+    
     var wordToGuess = "CODE"
     var lettersGuessed = "X"
     let maxNumberOfWrongGuesses = 8
