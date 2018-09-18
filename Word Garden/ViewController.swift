@@ -96,6 +96,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func guessLetterFieldChanged(_ sender: UITextField) {
+        print("TEST" + guessLetterField.text!)
         if let letterGuessed = guessLetterField.text?.last {
             guessLetterField.text = "\(letterGuessed)"
             guessLetterButton.isEnabled = true
